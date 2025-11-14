@@ -643,5 +643,11 @@ footer p {
     gap: 0.5rem;
   }
 }
+@media (max-width: 540px) {
+  .hero::before {
+    background: url("../img/hero.jpg") center center/contain no-repeat;
+    background-color: #000; /* O el color de fondo que prefieras */
+  }
+}
 
 
