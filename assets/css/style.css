@@ -596,6 +596,16 @@ footer p {
     flex-direction: column;
     gap: 1rem;
   }
+@media (max-width: 540px) {
+  .hero {
+    min-height: 10vh !important;    /* O incluso 0, prueba valores bajos */
+    padding-top: 0 !important;
+    height: auto !important;
+  }
+  .hero__content {
+    margin-top: 2rem; /* O menos, según estética */
+  }
+}
 
   .nav__links {
     flex-wrap: wrap;
@@ -692,4 +702,5 @@ footer p {
     margin-top: 15rem; /* O el valor que te parezca correcto */
   }
 }
+
 
