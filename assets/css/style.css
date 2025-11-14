@@ -151,7 +151,7 @@ header {
 }
 
 .hero__content {
-  max-width: 700px;
+  max-width: 400px;
   display: grid;
   gap: 1.5rem;
   padding-bottom: clamp(2rem, 6vw, 5rem);
@@ -643,4 +643,5 @@ footer p {
     gap: 0.5rem;
   }
 }
+
 
