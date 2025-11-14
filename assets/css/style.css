@@ -598,10 +598,15 @@ footer p {
   }
 @media (max-width: 540px) {
   .hero {
-    min-height: 10vh !important;    /* O incluso 0, prueba valores bajos */
     padding-top: 0 !important;
+    min-height: 0 !important;
     height: auto !important;
   }
+  .hero__content {
+    margin-top: 2rem; /* o el valor que prefieras, pero no 0 si quieres que se separe del borde superior de la foto */
+  }
+}
+
   .hero__content {
     margin-top: 2rem; /* O menos, según estética */
   }
@@ -702,5 +707,6 @@ footer p {
     margin-top: 15rem; /* O el valor que te parezca correcto */
   }
 }
+
 
 
