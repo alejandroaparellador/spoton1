@@ -603,7 +603,7 @@ footer p {
     height: auto !important;
   }
   .hero__content {
-    margin-top: 2rem; /* o el valor que prefieras, pero no 0 si quieres que se separe del borde superior de la foto */
+    margin-top: 200rem; /* o el valor que prefieras, pero no 0 si quieres que se separe del borde superior de la foto */
   }
 }
 
@@ -707,6 +707,7 @@ footer p {
     margin-top: 15rem; /* O el valor que te parezca correcto */
   }
 }
+
 
 
 
