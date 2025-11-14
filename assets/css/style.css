@@ -670,7 +670,7 @@ footer p {
 @media (max-width: 540px) {
   .hero {
     padding-top: 0 !important;
-    min-height: 20vh !important; /* Ajusta este valor aún más bajo para probar, ejemplo: 10vh, 15vh */
+    min-height: 1vh !important; /* Ajusta este valor aún más bajo para probar, ejemplo: 10vh, 15vh */
     height: auto !important; /* Asegura que no se force altura innecesaria */
   }
   .hero__content {
@@ -692,3 +692,4 @@ footer p {
     margin-top: 15rem; /* O el valor que te parezca correcto */
   }
 }
+
